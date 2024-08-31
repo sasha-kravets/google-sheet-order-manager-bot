@@ -1,0 +1,17 @@
+{
+  "name": "google-sheet-order-manager-bot",
+  "version": "1.0.0",
+  "description": "The Bot is developed using the telegraf library. It integrates googleapis for data storage in Google Sheets. ngrok is used for testing and the backend is deployed on Vercel.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Kravets",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
